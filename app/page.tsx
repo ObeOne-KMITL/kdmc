@@ -200,6 +200,27 @@ export default function Home() {
             </div>
           </div>
 
+          {/* Global Learning Section */}
+          <div className="mb-16">
+            <div className="flex items-center mb-6">
+              <div className="relative h-12 w-12 mr-4">
+                <Image src="/images/iLEARNING.png" alt="Global Learning" fill className="object-contain" />
+              </div>
+              <h3 className="text-2xl font-bold text-green-800">Global Learning</h3>
+            </div>
+
+            <div className="mb-10">
+              <h4 className="mb-4 text-xl font-medium text-orange-500">พื้นที่แชร์ความรู้</h4>
+              <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
+                <ServiceCard
+                  title="ระบบ Blog"
+                  icon={<HRDocIcon className="h-8 w-8" />}
+                  url="https://medium.kmitl.ac.th/"
+                />
+              </div>
+            </div>
+          </div>
+
           {/* Global Management Section */}
           <div className="mb-16">
             <div className="flex items-center mb-6">
@@ -331,11 +352,6 @@ export default function Home() {
                   title="ระบบลงทะเบียนเข้าร่วมงาน"
                   icon={<ProfileIcon className="h-8 w-8" />}
                   url="/https://prompt.kmitl.ac.th/"
-                />
-                <ServiceCard
-                  title="ระบบ Blog"
-                  icon={<HRDocIcon className="h-8 w-8" />}
-                  url="https://medium.kmitl.ac.th/"
                 />
                 <ServiceCard
                   title="ระบบ Version Control"
