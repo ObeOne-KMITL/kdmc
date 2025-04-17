@@ -10,12 +10,12 @@ interface ServiceCardProps {
 
 export default function ServiceCard({ title, icon, url }: ServiceCardProps) {
   const CardComponent = (
-    <Card className="h-full transition-all hover:border-orange-500 hover:shadow-md card-hover-effect">
+    <Card className="h-full transition-all hover:border-orange-500 hover:bg-orange-50 hover:shadow-md card-hover-effect group">
       <CardContent className="flex h-full flex-col items-center justify-center p-6 text-center">
-        <div className="mb-4 h-16 w-16 overflow-hidden rounded-full bg-orange-100 flex items-center justify-center text-orange-500">
+        <div className="mb-4 h-16 w-16 overflow-hidden rounded-full bg-orange-100 flex items-center justify-center text-orange-500 group-hover:bg-orange-200 group-hover:text-orange-600 transition-colors">
           {icon}
         </div>
-        <h4 className="text-md font-medium">{title}</h4>
+        <h4 className="text-md font-medium group-hover:text-orange-600 transition-colors">{title}</h4>
       </CardContent>
     </Card>
   )
