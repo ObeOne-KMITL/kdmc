@@ -695,10 +695,14 @@ export default function Home() {
           <p className="mb-4 text-xl">Line: @kdmc หรือโทร 091-190-6000</p>
           <div className="flex justify-center gap-4">
             <Button className="bg-white text-orange-600 hover:bg-orange-100">
-              <a href="https://forms.gle/XFDed7SSaSNBVQbg7">ข้อคิดเห็น ข้อเสนอแนะ</a>
+              <a href="https://forms.gle/XFDed7SSaSNBVQbg7" target="_blank" rel="noopener noreferrer">
+                ข้อคิดเห็น ข้อเสนอแนะ
+              </a>
             </Button>
             <Button className="bg-orange-800 text-white hover:bg-orange-900">
-              <a href="https://kdmc.kmitl.ac.th/about-us/contact-us/">ติดต่อเรา</a>
+              <a href="https://kdmc.kmitl.ac.th/about-us/contact-us/" target="_blank" rel="noopener noreferrer">
+                ติดต่อเรา
+              </a>
             </Button>
           </div>
         </div>

@@ -22,7 +22,7 @@ export default function ServiceCard({ title, icon, url }: ServiceCardProps) {
 
   if (url) {
     return (
-      <Link href={url} className="block h-full">
+      <Link href={url} className="block h-full" target="_blank" rel="noopener noreferrer">
         {CardComponent}
       </Link>
     )

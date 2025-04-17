@@ -24,7 +24,7 @@ export default function ProcessCard({ title, description, icon, url }: ProcessCa
 
   if (url) {
     return (
-      <Link href={url} className="block h-full">
+      <Link href={url} className="block h-full" target="_blank" rel="noopener noreferrer">
         {CardComponent}
       </Link>
     )

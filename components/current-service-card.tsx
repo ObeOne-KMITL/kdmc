@@ -21,7 +21,7 @@ export default function CurrentServiceCard({ title, icon, url }: CurrentServiceC
 
   if (url) {
     return (
-      <Link href={url} className="block">
+      <Link href={url} className="block" target="_blank" rel="noopener noreferrer">
         {CardComponent}
       </Link>
     )
