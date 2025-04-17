@@ -98,7 +98,7 @@ export default function Home() {
       {/* Services Section */}
       <section className="bg-white py-16">
         <div className="container mx-auto px-4">
-          <h2 className="mb-12 text-center text-3xl font-bold text-orange-600 md:text-4xl">Digital Services</h2>
+          <h2 className="mb-12 text-center text-3xl font-bold text-orange-600 md:text-4xl" id="section2">Digital Services</h2>
 
           <div className="mb-16">
             <h3 className="mb-6 text-2xl font-semibold text-orange-600">งานบริหารทรัพยากรบุคคล</h3>

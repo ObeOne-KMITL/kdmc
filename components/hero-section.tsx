@@ -23,9 +23,9 @@ export default function HeroSection() {
         <h1 className="mb-4 text-5xl font-bold md:text-6xl">KMITL: Digital University</h1>
         <p className="mb-8 max-w-2xl text-xl">Transforming education through digital innovation and technology</p>
         <div className="flex gap-4">
-          <Button className="bg-white text-orange-600 hover:bg-orange-100">
+          <a href="#section2"><Button className="bg-white text-orange-600 hover:bg-orange-100">
             Explore Services <ArrowRight className="ml-2 h-4 w-4" />
-          </Button>
+          </Button></a>
 
         </div>
       </div>
