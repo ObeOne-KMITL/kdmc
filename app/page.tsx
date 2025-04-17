@@ -192,7 +192,7 @@ export default function Home() {
               <h4 className="mb-4 text-xl font-medium text-orange-500">ส่วนงานวิชาการ</h4>
               <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
                 <ServiceCard
-                  title="คณะศิลปะศาสตร์ : ระบบ KMITL TEP"
+                  title="คณะศิลปศาสตร์ : ระบบ KMITL TEP"
                   icon={<CourseIcon className="h-8 w-8" />}
                   url="https://language.kmitl.ac.th/"
                 />
@@ -294,6 +294,11 @@ export default function Home() {
                   title="ระบบ E-meeting"
                   icon={<ZoomIcon className="h-8 w-8" />}
                   url="https://emeeting.kmitl.ac.th/"
+                />
+                <ServiceCard
+                  title="ฐานข้อมูล MOU"
+                  icon={<DatabaseIcon className="h-8 w-8" />}
+                  url="https://mou.kmitl.ac.th/"
                 />
               </div>
             </div>
@@ -553,6 +558,14 @@ export default function Home() {
               title="Private Cloud Storage"
               description="พื้นที่จัดเก็บไฟล์สำหรับบุคลากร"
               icon={<DatabaseIcon className="h-12 w-12" />}
+              showProgress={true}
+              progressPercentage={10}
+              expectedCompletion="Q3 2025"
+            />
+            <ComingSoonCard
+              title="Student Journey"
+              description="สำหรับใช้เป็นข้อมูลของหลักสูตร ขอนักศึกษาตั้งแต่ก่อนเข้าเรียน จนสำเร็จการศึกษา"
+              icon={<ProfileIcon className="h-12 w-12" />}
               showProgress={true}
               progressPercentage={10}
               expectedCompletion="Q3 2025"
