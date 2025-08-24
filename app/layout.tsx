@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     ],
     description: "Transforming education through digital innovation and technology.",
   },
-    generator: 'v0.dev'
+    generator: 'v0.app'
 }
 
 export default function RootLayout({
@@ -45,6 +45,3 @@ export default function RootLayout({
     </html>
   )
 }
-
-
-import './globals.css'

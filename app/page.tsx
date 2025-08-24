@@ -121,37 +121,49 @@ export default function Home() {
                   title="ระบบ Course Spec/Syllabus/Report"
                   icon={<CourseIcon className="h-8 w-8" />}
                   url="https://syllabus.kmitl.ac.th/"
+                  colorVariant="light-maroon"
                 />
                 <ServiceCard
                   title="ระบบบริหารจัดการคุณภาพหลักสูตร"
                   icon={<QualityIcon className="h-8 w-8" />}
                   url="https://aqa.kmitl.ac.th/"
+                  colorVariant="light-maroon"
                 />
                 <ServiceCard
                   title="ระบบประเมินการสอน"
                   icon={<EvaluationIcon className="h-8 w-8" />}
                   url="https://ces.kmitl.ac.th/"
+                  colorVariant="light-maroon"
                 />
                 <ServiceCard
                   title="ระบบฐานข้อมูลวิชาโครงงาน"
                   icon={<ProjectIcon className="h-8 w-8" />}
                   url="https://kip.kmitl.ac.th/"
+                  colorVariant="light-maroon"
                 />
                 <ServiceCard
                   title="ระบบแสดงผลการบริหารหลักสูตร"
                   icon={<ResultsIcon className="h-8 w-8" />}
                   url="https://cmms.kmitl.ac.th/"
+                  colorVariant="light-maroon"
                 />
-                <ServiceCard title="ระบบ LMS" icon={<LMSIcon className="h-8 w-8" />} url="https://goedu.kmitl.ac.th/" />
+                <ServiceCard
+                  title="ระบบ LMS"
+                  icon={<LMSIcon className="h-8 w-8" />}
+                  url="https://goedu.kmitl.ac.th/"
+                  colorVariant="light-maroon"
+                />
                 <ServiceCard
                   title="ระบบฐานข้อมูลหลักสูตร"
                   icon={<CurriculumIcon className="h-8 w-8" />}
                   url="https://academic.kmitl.ac.th/"
+                  colorVariant="light-maroon"
                 />
                 <ServiceCard
                   title="ข้อมูลหลักสูตร สำหรับนักเรียน"
                   icon={<CurriculumIcon className="h-8 w-8" />}
                   url="https://curriculum.kmitl.ac.th/"
+                  colorVariant="light-maroon"
                 />
               </div>
             </div>
@@ -163,11 +175,13 @@ export default function Home() {
                   title="ระบบ Klix Masterclass"
                   icon={<LMSIcon className="h-8 w-8" />}
                   url="https://klix.kmitl.ac.th/"
+                  colorVariant="light-maroon"
                 />
                 <ServiceCard
                   title="ระบบ Media Server"
                   icon={<ZoomIcon className="h-8 w-8" />}
                   url="https://streaming.kmitl.ac.th/manage/"
+                  colorVariant="light-maroon"
                 />
               </div>
             </div>
@@ -179,11 +193,13 @@ export default function Home() {
                   title="ระบบจัดการกิจกรรม"
                   icon={<ProjectIcon className="h-8 w-8" />}
                   url="https://events.kmitl.ac.th/"
+                  colorVariant="light-maroon"
                 />
                 <ServiceCard
                   title="ระบบสำรวจนักศึกษาเข้าใหม่งานปฐมนิเทศน์"
                   icon={<EvaluationIcon className="h-8 w-8" />}
                   url="https://orientation.kmitl.ac.th/"
+                  colorVariant="light-maroon"
                 />
               </div>
             </div>
@@ -195,6 +211,7 @@ export default function Home() {
                   title="คณะศิลปศาสตร์ : ระบบ KMITL TEP"
                   icon={<CourseIcon className="h-8 w-8" />}
                   url="https://language.kmitl.ac.th/"
+                  colorVariant="light-maroon"
                 />
               </div>
             </div>
@@ -216,6 +233,7 @@ export default function Home() {
                   title="ระบบ Blog"
                   icon={<HRDocIcon className="h-8 w-8" />}
                   url="https://medium.kmitl.ac.th/"
+                  colorVariant="light-blue"
                 />
               </div>
             </div>
@@ -237,21 +255,31 @@ export default function Home() {
                   title="ระบบ Profile บุคลากร"
                   icon={<ProfileIcon className="h-8 w-8" />}
                   url="https://profile.kmitl.ac.th/"
+                  colorVariant="light-yellow"
                 />
                 <ServiceCard
                   title="ระบบคำขอหนังสือ HR"
                   icon={<HRDocIcon className="h-8 w-8" />}
                   url="https://eform.hr.kmitl.ac.th/"
+                  colorVariant="light-yellow"
                 />
                 <ServiceCard
                   title="ระบบฐานข้อมูลบุคลากร"
                   icon={<DatabaseIcon className="h-8 w-8" />}
                   url="https://hris.kmitl.ac.th/"
+                  colorVariant="light-yellow"
                 />
                 <ServiceCard
                   title="ระบบ KAIZEN"
                   icon={<KaizenIcon className="h-8 w-8" />}
                   url="https://kaizen.kmitl.ac.th/"
+                  colorVariant="light-yellow"
+                />
+                <ServiceCard
+                  title="ระบบความเชี่ยวชาญอาจารย์"
+                  icon={<ProfileIcon className="h-8 w-8" />}
+                  url="https://talent.kmitl.ac.th/"
+                  colorVariant="light-yellow"
                 />
               </div>
             </div>
@@ -263,16 +291,19 @@ export default function Home() {
                   title="ระบบเบิกสวัสดิการ ค่ารักษาพยาบาล/ทันตกรรม/ค่าเล่าเรียนบุตร"
                   icon={<BenefitsIcon className="h-8 w-8" />}
                   url="https://finance.kmitl.ac.th/welfare"
+                  colorVariant="light-yellow"
                 />
                 <ServiceCard
                   title="ระบบยืมเงินทดลองจ่าย"
                   icon={<LoanIcon className="h-8 w-8" />}
                   url="https://advance.finance.kmitl.ac.th/"
+                  colorVariant="light-yellow"
                 />
                 <ServiceCard
                   title="ระบบออกใบเสร็จหอพัก"
                   icon={<ReceiptIcon className="h-8 w-8" />}
                   url="https://receipt.finance.kmitl.ac.th/"
+                  colorVariant="light-yellow"
                 />
               </div>
             </div>
@@ -284,11 +315,13 @@ export default function Home() {
                   title="ระบบรายงานผลการดำเนินงานประจำปี"
                   icon={<ResultsIcon className="h-8 w-8" />}
                   url="https://oprs.kmitl.ac.th/"
+                  colorVariant="light-yellow"
                 />
                 <ServiceCard
                   title="ระบบสำรวจภาวะมีงานทำ"
                   icon={<EvaluationIcon className="h-8 w-8" />}
                   url="https://commencement.kmitl.ac.th/api/view/faculty-summary"
+                  colorVariant="light-yellow"
                 />
               </div>
             </div>
@@ -300,26 +333,31 @@ export default function Home() {
                   title="ระบบจองห้องต่างๆ ในสถาบัน"
                   icon={<CoLocIcon className="h-8 w-8" />}
                   url="https://booking.kmitl.ac.th/"
+                  colorVariant="light-yellow"
                 />
                 <ServiceCard
                   title="ระบบจัดเก็บเอกสารงานสารบรรณ"
                   icon={<HRDocIcon className="h-8 w-8" />}
                   url="https://doc.kmitl.ac.th/"
+                  colorVariant="light-yellow"
                 />
                 <ServiceCard
                   title="ระบบเช็คชื่อเข้าประชุม"
                   icon={<ProfileIcon className="h-8 w-8" />}
                   url="https://attending.kmitl.ac.th/"
+                  colorVariant="light-yellow"
                 />
                 <ServiceCard
                   title="ระบบ E-meeting"
                   icon={<ZoomIcon className="h-8 w-8" />}
                   url="https://emeeting.kmitl.ac.th/"
+                  colorVariant="light-yellow"
                 />
                 <ServiceCard
                   title="ฐานข้อมูล MOU"
                   icon={<DatabaseIcon className="h-8 w-8" />}
                   url="https://mou.kmitl.ac.th/"
+                  colorVariant="light-yellow"
                 />
               </div>
             </div>
@@ -331,11 +369,25 @@ export default function Home() {
                   title="ระบบจัดเก็บรูปภาพ"
                   icon={<AdobeIcon className="h-8 w-8" />}
                   url="https://gallery.kmitl.ac.th/"
+                  colorVariant="light-yellow"
                 />
                 <ServiceCard
                   title="ระบบ E-Stamp"
                   icon={<ReceiptIcon className="h-8 w-8" />}
                   url="https://estamps.kmitl.ac.th/"
+                  colorVariant="light-yellow"
+                />
+              </div>
+            </div>
+
+            <div className="mb-10">
+              <h4 className="mb-4 text-xl font-medium text-orange-500">สภาสถาบัน</h4>
+              <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
+                <ServiceCard
+                  title="ระบบติดตามการทำงานตามมติสภาสถาบัน"
+                  icon={<ResultsIcon className="h-8 w-8" />}
+                  url="https://council.tracking.council.kmitl.ac.th/"
+                  colorVariant="light-yellow"
                 />
               </div>
             </div>
@@ -347,26 +399,37 @@ export default function Home() {
                   title="ระบบ E-Certificate"
                   icon={<CourseIcon className="h-8 w-8" />}
                   url="https://ecer.kmitl.ac.th/"
+                  colorVariant="light-yellow"
                 />
                 <ServiceCard
                   title="ระบบลงทะเบียนเข้าร่วมงาน"
                   icon={<ProfileIcon className="h-8 w-8" />}
                   url="/https://prompt.kmitl.ac.th/"
+                  colorVariant="light-yellow"
                 />
                 <ServiceCard
                   title="ระบบ Version Control"
                   icon={<DevHubIcon className="h-8 w-8" />}
                   url="https://git.kmitl.ac.th/"
+                  colorVariant="light-yellow"
                 />
                 <ServiceCard
                   title="ระบบส่งไฟล์ send me"
                   icon={<HRDocIcon className="h-8 w-8" />}
                   url="https://sendme.kmitl.ac.th/"
+                  colorVariant="light-yellow"
                 />
                 <ServiceCard
                   title="รพ. พระจอมเกล้า : ระบบคิว"
                   icon={<ProfileIcon className="h-8 w-8" />}
                   url="https://queue-opd.kmitl.ac.th/"
+                  colorVariant="light-yellow"
+                />
+                <ServiceCard
+                  title="IoT Platform"
+                  icon={<IoTIcon className="h-8 w-8" />}
+                  url="https://lora.kmitl.ac.th/"
+                  colorVariant="light-yellow"
                 />
               </div>
             </div>
@@ -388,16 +451,25 @@ export default function Home() {
                   title="ระบบแจ้งซ่อม"
                   icon={<RepairIcon className="h-8 w-8" />}
                   url="https://tweet.kmitl.ac.th/"
+                  colorVariant="light-pink"
                 />
                 <ServiceCard
                   title="ระบบติดตามรถ EV"
                   icon={<EVIcon className="h-8 w-8" />}
                   url="https://tracking.kmitl.ac.th/"
+                  colorVariant="light-pink"
                 />
                 <ServiceCard
                   title="ระบบกล้องวงจรปิด"
                   icon={<CCTVIcon className="h-8 w-8" />}
                   url="http://www.buildkmitl.com/main/?page_id=5470"
+                  colorVariant="light-pink"
+                />
+                <ServiceCard
+                  title="ระบบจองรถ"
+                  icon={<EVIcon className="h-8 w-8" />}
+                  url="https://vehicle.kmitl.ac.th/"
+                  colorVariant="light-pink"
                 />
               </div>
             </div>
@@ -419,11 +491,13 @@ export default function Home() {
                   title="ระบบงาน KMITL Expo"
                   icon={<ProjectIcon className="h-8 w-8" />}
                   url="https://expo.kmitl.ac.th"
+                  colorVariant="light-green"
                 />
                 <ServiceCard
                   title="Chatbot knowa"
                   icon={<AIIcon className="h-8 w-8" />}
                   url="https://expo.kmitl.ac.th/th/knowva"
+                  colorVariant="light-green"
                 />
               </div>
             </div>
@@ -472,14 +546,6 @@ export default function Home() {
               greenProgress={true}
             />
             <ComingSoonCard
-              title="IoT Platform"
-              description="ให้บริการ IoT ด้วย Lora Technology และ Wi-Fi"
-              icon={<IoTIcon className="h-12 w-12" />}
-              showProgress={true}
-              progressPercentage={20}
-              expectedCompletion="Q3 2025"
-            />
-            <ComingSoonCard
               title="Shorten URL"
               description="ให้บริการ URL แบบสั้น เพื่อจดจำง่าย"
               icon={<URLIcon className="h-12 w-12" />}
@@ -493,7 +559,7 @@ export default function Home() {
               description="ให้นักศึกษาฝึกเขียน Code และออก Certificate รองรับภาษา Python และภาษา C"
               icon={<CodingIcon className="h-12 w-12" />}
               showProgress={true}
-              progressPercentage={20}
+              progressPercentage={60}
               expectedCompletion="Q3 2025"
             />
             <ComingSoonCard
@@ -501,8 +567,9 @@ export default function Home() {
               description="ระบบ Single Sign On รองรับระบบต่าง ๆ ที่หลากหลาย"
               icon={<SSOIcon className="h-12 w-12" />}
               showProgress={true}
-              progressPercentage={20}
+              progressPercentage={70}
               expectedCompletion="Q3 2025"
+              greenProgress={true}
             />
             <ComingSoonCard
               title="Developer HUB"
@@ -531,25 +598,9 @@ export default function Home() {
               expectedCompletion="Q3 2025"
             />
             <ComingSoonCard
-              title="ระบบจองรถ"
-              description="สำหรับใช้ในการจองรถ"
-              icon={<EVIcon className="h-12 w-12" />}
-              showProgress={true}
-              progressPercentage={10}
-              expectedCompletion="Q3 2025"
-            />
-            <ComingSoonCard
               title="ระบบ Profile ของหลักสูตร"
               description="สำหรับเป็นข้อมูลพื้นฐานให้กับหลักสูตร"
               icon={<CurriculumIcon className="h-12 w-12" />}
-              showProgress={true}
-              progressPercentage={10}
-              expectedCompletion="Q3 2025"
-            />
-            <ComingSoonCard
-              title="ระบบความเชี่ยวชาญอาจารย์"
-              description="ให้ภายนอกสืบค้นความเชี่ยวชาญของอาจารย์ได้"
-              icon={<ProfileIcon className="h-12 w-12" />}
               showProgress={true}
               progressPercentage={10}
               expectedCompletion="Q3 2025"
@@ -563,20 +614,13 @@ export default function Home() {
               expectedCompletion="Q3 2025"
             />
             <ComingSoonCard
-              title="ระบบติดตามการทำงานตามมติสภาสถาบัน"
-              description="ใช้สำหรับติดตามข้อสั่งการจากสภาสถาบัน"
-              icon={<ResultsIcon className="h-12 w-12" />}
-              showProgress={true}
-              progressPercentage={10}
-              expectedCompletion="Q3 2025"
-            />
-            <ComingSoonCard
               title="Private Cloud Storage"
               description="พื้นที่จัดเก็บไฟล์สำหรับบุคลากร"
               icon={<DatabaseIcon className="h-12 w-12" />}
               showProgress={true}
-              progressPercentage={10}
+              progressPercentage={70}
               expectedCompletion="Q3 2025"
+              greenProgress={true}
             />
             <ComingSoonCard
               title="Student Journey"
