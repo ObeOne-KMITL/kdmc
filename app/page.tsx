@@ -118,18 +118,6 @@ export default function Home() {
               colorVariant="light-maroon"
             />
             <ServiceCard
-              title="ระบบประเมินการสอน"
-              icon={<EvaluationIcon className="h-8 w-8" />}
-              url="https://ces.kmitl.ac.th/"
-              colorVariant="light-maroon"
-            />
-            <ServiceCard
-              title="SSO"
-              icon={<SSOIcon className="h-8 w-8" />}
-              url="https://sso.kmitl.ac.th/realms/kmitl/account"
-              colorVariant="light-yellow"
-            />
-            <ServiceCard
               title="Generative AI Service Platform"
               icon={<AIIcon className="h-8 w-8" />}
               url="https://ai.kmitl.ac.th/"
@@ -148,10 +136,10 @@ export default function Home() {
               colorVariant="light-yellow"
             />
             <ServiceCard
-              title="ระบบ E-meeting"
-              icon={<ZoomIcon className="h-8 w-8" />}
-              url="https://emeeting.kmitl.ac.th/"
-              colorVariant="light-yellow"
+              title="ระบบจองรถ"
+              icon={<EVIcon className="h-8 w-8" />}
+              url="https://vehicle.kmitl.ac.th/"
+              colorVariant="light-pink"
             />
           </div>
         </div>
