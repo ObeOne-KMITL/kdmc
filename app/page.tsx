@@ -98,11 +98,58 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Services Section */}
+      {/* Frequently Used Services Section */}
       <section className="bg-white py-16">
         <div className="container mx-auto px-4">
+          <h2 className="mb-12 text-center text-3xl font-bold text-orange-600 md:text-4xl">
+            Frequently Used Services
+          </h2>
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4 mb-8">
+            <ServiceCard
+              title="ระบบ LMS"
+              icon={<LMSIcon className="h-8 w-8" />}
+              url="https://goedu.kmitl.ac.th/"
+              colorVariant="light-maroon"
+            />
+            <ServiceCard
+              title="ระบบ Course Spec/Syllabus/Report"
+              icon={<CourseIcon className="h-8 w-8" />}
+              url="https://syllabus.kmitl.ac.th/"
+              colorVariant="light-maroon"
+            />
+            <ServiceCard
+              title="Generative AI Service Platform"
+              icon={<AIIcon className="h-8 w-8" />}
+              url="https://ai.kmitl.ac.th/"
+              colorVariant="light-yellow"
+            />
+            <ServiceCard
+              title="ระบบ Profile บุคลากร"
+              icon={<ProfileIcon className="h-8 w-8" />}
+              url="https://profile.kmitl.ac.th/"
+              colorVariant="light-yellow"
+            />
+            <ServiceCard
+              title="ระบบจองห้องต่างๆ ในสถาบัน"
+              icon={<CoLocIcon className="h-8 w-8" />}
+              url="https://booking.kmitl.ac.th/"
+              colorVariant="light-yellow"
+            />
+            <ServiceCard
+              title="ระบบจองรถ"
+              icon={<EVIcon className="h-8 w-8" />}
+              url="https://vehicle.kmitl.ac.th/"
+              colorVariant="light-pink"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* All Digital Services Section */}
+      <section className="bg-orange-50 py-16">
+        <div className="container mx-auto px-4">
           <h2 className="mb-12 text-center text-3xl font-bold text-orange-600 md:text-4xl" id="section2">
-            Digital Services
+            All Digital Services
           </h2>
 
           {/* Global Citizen Section */}
@@ -491,6 +538,12 @@ export default function Home() {
                   url="https://kdmc.kmitl.ac.th/live-camera/"
                   colorVariant="light-yellow"
                 />
+                <ServiceCard
+                  title="ระบบ Dashboard"
+                  icon={<ResultsIcon className="h-8 w-8" />}
+                  url="https://info.kmitl.ac.th/"
+                  colorVariant="light-yellow"
+                />
               </div>
             </div>
 
@@ -601,9 +654,18 @@ export default function Home() {
 <h2 className="mb-12 text-center text-3xl font-bold text-orange-600 md:text-4xl">Coming Soon</h2>
   <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
   
+<ComingSoonCard
+  title="ระบบแสดง Unit Cost"
+  description="แสดง Unit cost ของแต่ละหลักสูตร"
+  icon={<ResultsIcon className="h-12 w-12" />}
+  showProgress={true}
+  progressPercentage={20}
+  expectedCompletion="Q3 2026"
+  />
+
   <ComingSoonCard
-    title="ระบบตรวจข้อสอบ"
-    description="ตรวจข้อสอบปรนัยโดยใช้มือถือ และ บันทึกลงระบบ"
+  title="ระบบตรวจข้อสอบ"
+  description="ตรวจข้อสอบปรนัยโดยใช้มือถือ และ บันทึกลงระบบ"
     icon={<EvaluationIcon className="h-12 w-12" />}
     showProgress={true}
     progressPercentage={50}
@@ -688,6 +750,11 @@ export default function Home() {
                   title="MATLAB"
                   icon={<MatlabIcon className="h-6 w-6" />}
                   url="https://kdmc.kmitl.ac.th/services/matlab/"
+                />
+                <CurrentServiceCard
+                  title="Windows License"
+                  icon={<OfficeIcon className="h-6 w-6" />}
+                  url="https://kdmc.kmitl.ac.th/services/windows11/"
                 />
               </div>
             </div>
