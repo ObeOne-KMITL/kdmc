@@ -109,37 +109,37 @@ export default function Home() {
               title="ระบบ LMS"
               icon={<LMSIcon className="h-8 w-8" />}
               url="https://goedu.kmitl.ac.th/"
-              colorVariant="light-maroon"
+              colorVariant="light-blue"
             />
             <ServiceCard
               title="ระบบ Course Spec/Syllabus/Report"
               icon={<CourseIcon className="h-8 w-8" />}
               url="https://syllabus.kmitl.ac.th/"
-              colorVariant="light-maroon"
+              colorVariant="light-blue"
             />
             <ServiceCard
               title="Generative AI Service Platform"
               icon={<AIIcon className="h-8 w-8" />}
               url="https://ai.kmitl.ac.th/"
-              colorVariant="light-yellow"
+              colorVariant="light-blue"
             />
             <ServiceCard
               title="ระบบ Profile บุคลากร"
               icon={<ProfileIcon className="h-8 w-8" />}
               url="https://profile.kmitl.ac.th/"
-              colorVariant="light-yellow"
+              colorVariant="light-blue"
             />
             <ServiceCard
               title="ระบบจองห้องต่างๆ ในสถาบัน"
               icon={<CoLocIcon className="h-8 w-8" />}
               url="https://booking.kmitl.ac.th/"
-              colorVariant="light-yellow"
+              colorVariant="light-blue"
             />
             <ServiceCard
               title="ระบบจองรถ"
               icon={<EVIcon className="h-8 w-8" />}
               url="https://vehicle.kmitl.ac.th/"
-              colorVariant="light-pink"
+              colorVariant="light-blue"
             />
           </div>
         </div>
