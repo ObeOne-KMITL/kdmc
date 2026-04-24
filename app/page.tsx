@@ -528,14 +528,15 @@ export default function Home() {
               expectedCompletion="Q3 2025"
               greenProgress={true}
             />
-            <ComingSoonCard
-              title="ERP"
-              description="ทลายกำแพง แผน พัสดุ คลัง สู่เป้าหมายเดียวกันตาม Core Valus : Team Spirit"
-              icon={<ERPIcon className="h-12 w-12" />}
-              showProgress={true}
-              progressPercentage={30}
-              expectedCompletion="Q1 2026"
-            />
+<ComingSoonCard
+  title="ERP"
+  description="ทลายกำแพง แผน พัสดุ คลัง สู่เป้าหมายเดียวกันตาม Core Valus : Team Spirit"
+  icon={<ERPIcon className="h-12 w-12" />}
+  showProgress={true}
+  progressPercentage={80}
+  expectedCompletion="Q3 2026"
+  greenProgress={true}
+  />
             <ComingSoonCard
               title="Metaverse"
               description="สร้าง Metaverse สำหรับการเรียนรู้แบบเสมือนจริง"
