@@ -636,8 +636,14 @@ export default function Home() {
   url="https://expo.kmitl.ac.th/th/knowva"
   colorVariant="light-green"
   />
+  <ServiceCard
+  title="ฐานข้อมูลงานวิจัย (Dspace)"
+  icon={<DatabaseIcon className="h-8 w-8" />}
+  url="https://dspace.kmitl.ac.th"
+  colorVariant="light-green"
+  />
   </div>
-            </div>
+  </div>
           </div>
         </div>
       </section>
