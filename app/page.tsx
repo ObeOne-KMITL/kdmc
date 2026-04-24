@@ -449,6 +449,18 @@ export default function Home() {
                   url="https://codesk.kmitl.ac.th/"
                   colorVariant="light-yellow"
                 />
+                <ServiceCard
+                  title="SSO"
+                  icon={<SSOIcon className="h-8 w-8" />}
+                  url="https://sso.kmitl.ac.th/realms/kmitl/account"
+                  colorVariant="light-yellow"
+                />
+                <ServiceCard
+                  title="Developer HUB"
+                  icon={<DevHubIcon className="h-8 w-8" />}
+                  url="https://developer.kmitl.ac.th/"
+                  colorVariant="light-yellow"
+                />
               </div>
             </div>
           </div>
@@ -566,24 +578,8 @@ export default function Home() {
             />
             
             
-            <ComingSoonCard
-              title="SSO"
-              description="ระบบ Single Sign On รองรับระบบต่าง ๆ ที่หลากหลาย"
-              icon={<SSOIcon className="h-12 w-12" />}
-              showProgress={true}
-              progressPercentage={70}
-              expectedCompletion="Q3 2025"
-              greenProgress={true}
-            />
-            <ComingSoonCard
-              title="Developer HUB"
-              description="รองรับนักพัฒนาในสถาบันเพื่อช่วยกันพัฒนาระบบสารสนเทศต่างๆ ใช้งานในสถาบัน"
-              icon={<DevHubIcon className="h-12 w-12" />}
-              showProgress={true}
-              progressPercentage={80}
-              expectedCompletion="Q3 2025"
-              greenProgress={true}
-            />
+            
+            
             <ComingSoonCard
               title="API Gateway"
               description="สำหรับให้บริการ API กับระบบต่าง ๆ"
