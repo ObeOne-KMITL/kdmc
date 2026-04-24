@@ -614,16 +614,17 @@ export default function Home() {
               description="เปลี่ยนวิธีการตัดเกรดโดยอิงตาม CLO"
               icon={<EvaluationIcon className="h-12 w-12" />}
               showProgress={true}
-              progressPercentage={10}
-              expectedCompletion="Q3 2025"
+              progressPercentage={75}
+              expectedCompletion="Q3 2026"
+              greenProgress={true}
             />
             <ComingSoonCard
               title="Private Cloud Storage"
               description="พื้นที่จัดเก็บไฟล์สำหรับบุคลากร"
               icon={<DatabaseIcon className="h-12 w-12" />}
               showProgress={true}
-              progressPercentage={70}
-              expectedCompletion="Q3 2025"
+              progressPercentage={90}
+              expectedCompletion="Q3 2026"
               greenProgress={true}
             />
             
