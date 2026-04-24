@@ -399,7 +399,7 @@ export default function Home() {
             </div>
 
             <div className="mb-10">
-              <h4 className="mb-4 text-xl font-medium text-orange-500">งานอื่นๆ</h4>
+              <h4 className="mb-4 text-xl font-medium text-orange-500">KDMC</h4>
               <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
                 <ServiceCard
                   title="ระบบ E-Certificate"
@@ -410,7 +410,7 @@ export default function Home() {
                 <ServiceCard
                   title="ระบบลงทะเบียนเข้าร่วมงาน"
                   icon={<ProfileIcon className="h-8 w-8" />}
-                  url="/https://prompt.kmitl.ac.th/"
+                  url="https://prompt.kmitl.ac.th/"
                   colorVariant="light-yellow"
                 />
                 <ServiceCard
