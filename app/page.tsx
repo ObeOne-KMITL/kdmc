@@ -485,12 +485,6 @@ export default function Home() {
                   colorVariant="light-yellow"
                 />
                 <ServiceCard
-                  title="ระบบ Version Control"
-                  icon={<DevHubIcon className="h-8 w-8" />}
-                  url="https://git.kmitl.ac.th/"
-                  colorVariant="light-yellow"
-                />
-                <ServiceCard
                   title="ระบบส่งไฟล์ send me"
                   icon={<HRDocIcon className="h-8 w-8" />}
                   url="https://sendme.kmitl.ac.th/"
@@ -503,25 +497,25 @@ export default function Home() {
                   colorVariant="light-yellow"
                 />
                 <ServiceCard
-                  title="IoT Platform"
+                  title="ระบบ IoT Platform (LoRa-based)"
                   icon={<IoTIcon className="h-8 w-8" />}
                   url="https://lora.kmitl.ac.th/"
                   colorVariant="light-yellow"
                 />
                 <ServiceCard
-                  title="Shorten URL"
+                  title="ระบบ Shorten URL"
                   icon={<URLIcon className="h-8 w-8" />}
                   url="https://manage.kmi.tl"
                   colorVariant="light-yellow"
                 />
                 <ServiceCard
-                  title="Coding Platform"
+                  title="ระบบ Coding Platform"
                   icon={<CodingIcon className="h-8 w-8" />}
                   url="https://codesk.kmitl.ac.th/"
                   colorVariant="light-yellow"
                 />
                 <ServiceCard
-                  title="Metaverse"
+                  title="KMITL Metaverse"
                   icon={<MetaverseIcon className="h-8 w-8" />}
                   url="http://metaverse.kmitl.ac.th/"
                   colorVariant="light-yellow"
@@ -551,7 +545,7 @@ export default function Home() {
               <h4 className="mb-4 text-xl font-medium text-orange-500">Developer Platform</h4>
               <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
                 <ServiceCard
-                  title="SSO"
+                  title="ระบบ Single Sign On"
                   icon={<SSOIcon className="h-8 w-8" />}
                   url="https://sso.kmitl.ac.th/realms/kmitl/account"
                   colorVariant="light-yellow"
@@ -562,13 +556,19 @@ export default function Home() {
                   url="https://developer.kmitl.ac.th/"
                   colorVariant="light-yellow"
                 />
-                <ServiceCard
-                  title="API Gateway"
-                  icon={<URLIcon className="h-8 w-8" />}
-                  url="https://api.kmitl.ac.th/"
-                  colorVariant="light-yellow"
-                />
-              </div>
+<ServiceCard
+  title="API Gateway"
+  icon={<URLIcon className="h-8 w-8" />}
+  url="https://api.kmitl.ac.th/"
+  colorVariant="light-yellow"
+  />
+  <ServiceCard
+  title="ระบบ Version Control"
+  icon={<DevHubIcon className="h-8 w-8" />}
+  url="https://git.kmitl.ac.th/"
+  colorVariant="light-yellow"
+  />
+  </div>
             </div>
           </div>
 
@@ -630,19 +630,13 @@ export default function Home() {
                   url="https://expo.kmitl.ac.th"
                   colorVariant="light-green"
                 />
-                <ServiceCard
-                  title="Chatbot knowa"
-                  icon={<AIIcon className="h-8 w-8" />}
-                  url="https://expo.kmitl.ac.th/th/knowva"
-                  colorVariant="light-green"
-                />
-                <ServiceCard
-                  title="Dspace"
-                  icon={<DatabaseIcon className="h-8 w-8" />}
-                  url="https://dspace.kmitl.ac.th"
-                  colorVariant="light-green"
-                />
-              </div>
+<ServiceCard
+  title="Chatbot knowa"
+  icon={<AIIcon className="h-8 w-8" />}
+  url="https://expo.kmitl.ac.th/th/knowva"
+  colorVariant="light-green"
+  />
+  </div>
             </div>
           </div>
         </div>
