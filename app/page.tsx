@@ -225,6 +225,12 @@ export default function Home() {
             <div className="mb-10">
               <h4 className="mb-4 text-xl font-medium text-orange-500">สำนักศึกษาทั่วไป</h4>
               <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
+                <ServiceCard
+                  title="GenEd Skill Transcript"
+                  icon={<SkillsIcon className="h-8 w-8" />}
+                  url="https://skill-transcript.gened.kmitl.ac.th/"
+                  colorVariant="light-maroon"
+                />
               </div>
             </div>
           </div>
@@ -582,15 +588,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <h2 className="mb-12 text-center text-3xl font-bold text-orange-600 md:text-4xl">Coming Soon</h2>
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-            <ComingSoonCard
-              title="Skill Transcript"
-              description="รองรับการออก Skill Transcript ให้กับ นศ ทุกคน"
-              icon={<SkillsIcon className="h-12 w-12" />}
-              showProgress={true}
-              progressPercentage={75}
-              expectedCompletion="Q3 2025"
-              greenProgress={true}
-            />
+            
             
 <ComingSoonCard
   title="ERP"
