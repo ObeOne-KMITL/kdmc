@@ -281,17 +281,23 @@ export default function Home() {
                   url="https://kaizen.kmitl.ac.th/"
                   colorVariant="light-yellow"
                 />
-                <ServiceCard
-                  title="ระบบความเชี่ยวชาญอาจารย์"
-                  icon={<ProfileIcon className="h-8 w-8" />}
-                  url="https://talent.kmitl.ac.th/"
-                  colorVariant="light-yellow"
-                />
-              </div>
-            </div>
-
-            <div className="mb-10">
-              <h4 className="mb-4 text-xl font-medium text-orange-500">งานการเงิน การคลัง</h4>
+<ServiceCard
+  title="ระบบความเชี่ยวชาญอาจารย์"
+  icon={<ProfileIcon className="h-8 w-8" />}
+  url="https://talent.kmitl.ac.th/"
+  colorVariant="light-yellow"
+  />
+  <ServiceCard
+    title="Ignite"
+    icon={<AIIcon className="h-8 w-8" />}
+    url="https://ignite.kmitl.ac.th/"
+    colorVariant="light-yellow"
+  />
+  </div>
+  </div>
+  
+  <div className="mb-10">
+  <h4 className="mb-4 text-xl font-medium text-orange-500">งานการเงิน การคลัง</h4>
               <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
                 <ServiceCard
                   title="ระบบเบิกสวัสดิการ ค่ารักษาพยาบาล/ทันตกรรม/ค่าเล่าเรียนบุตร"
@@ -541,6 +547,12 @@ export default function Home() {
                   url="https://expo.kmitl.ac.th/th/knowva"
                   colorVariant="light-green"
                 />
+                <ServiceCard
+                  title="Dspace"
+                  icon={<DatabaseIcon className="h-8 w-8" />}
+                  url="https://dspace.kmitl.ac.th"
+                  colorVariant="light-green"
+                />
               </div>
             </div>
           </div>
@@ -561,15 +573,7 @@ export default function Home() {
               expectedCompletion="Q3 2025"
               greenProgress={true}
             />
-            <ComingSoonCard
-              title="Iginite"
-              description="Platform AI Chatbot สำหรับทุกหน่วยงาน สร้าง Chatbot ช่วยตอบคำถามของแต่ละหน่วย"
-              icon={<AIIcon className="h-12 w-12" />}
-              showProgress={true}
-              progressPercentage={75}
-              expectedCompletion="Q3 2025"
-              greenProgress={true}
-            />
+            
 <ComingSoonCard
   title="ERP"
   description="ทลายกำแพง แผน พัสดุ คลัง สู่เป้าหมายเดียวกันตาม Core Valus : Team Spirit"
@@ -593,14 +597,7 @@ export default function Home() {
             
             
             
-            <ComingSoonCard
-              title="Dspace"
-              description="รวบรวมงานวิจัย และ ผลงานอาจารย์"
-              icon={<DatabaseIcon className="h-12 w-12" />}
-              showProgress={true}
-              progressPercentage={20}
-              expectedCompletion="Q3 2025"
-            />
+            
             <ComingSoonCard
               title="ระบบ Profile ของหลักสูตร"
               description="สำหรับเป็นข้อมูลพื้นฐานให้กับหลักสูตร"
