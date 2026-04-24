@@ -165,6 +165,12 @@ export default function Home() {
                   url="https://curriculum.kmitl.ac.th/"
                   colorVariant="light-maroon"
                 />
+                <ServiceCard
+                  title="Student Journey"
+                  icon={<ProfileIcon className="h-8 w-8" />}
+                  url="https://journey.kmitl.ac.th/"
+                  colorVariant="light-maroon"
+                />
               </div>
             </div>
 
@@ -431,6 +437,18 @@ export default function Home() {
                   url="https://lora.kmitl.ac.th/"
                   colorVariant="light-yellow"
                 />
+                <ServiceCard
+                  title="Shorten URL"
+                  icon={<URLIcon className="h-8 w-8" />}
+                  url="https://manage.kmi.tl"
+                  colorVariant="light-yellow"
+                />
+                <ServiceCard
+                  title="Coding Platform"
+                  icon={<CodingIcon className="h-8 w-8" />}
+                  url="https://codesk.kmitl.ac.th/"
+                  colorVariant="light-yellow"
+                />
               </div>
             </div>
           </div>
@@ -546,23 +564,8 @@ export default function Home() {
               expectedCompletion="Q3 2025"
               greenProgress={true}
             />
-            <ComingSoonCard
-              title="Shorten URL"
-              description="ให้บริการ URL แบบสั้น เพื่อจดจำง่าย"
-              icon={<URLIcon className="h-12 w-12" />}
-              showProgress={true}
-              progressPercentage={80}
-              expectedCompletion="Q3 2025"
-              greenProgress={true}
-            />
-            <ComingSoonCard
-              title="Coding Platform"
-              description="ให้นักศึกษาฝึกเขียน Code และออก Certificate รองรับภาษา Python และภาษา C"
-              icon={<CodingIcon className="h-12 w-12" />}
-              showProgress={true}
-              progressPercentage={60}
-              expectedCompletion="Q3 2025"
-            />
+            
+            
             <ComingSoonCard
               title="SSO"
               description="ระบบ Single Sign On รองรับระบบต่าง ๆ ที่หลากหลาย"
@@ -623,14 +626,7 @@ export default function Home() {
               expectedCompletion="Q3 2025"
               greenProgress={true}
             />
-            <ComingSoonCard
-              title="Student Journey"
-              description="สำหรับใช้เป็นข้อมูลของหลักสูตร ขอนักศึกษาตั้งแต่ก่อนเข้าเรียน จนสำเร็จการศึกษา"
-              icon={<ProfileIcon className="h-12 w-12" />}
-              showProgress={true}
-              progressPercentage={10}
-              expectedCompletion="Q3 2025"
-            />
+            
           </div>
         </div>
       </section>
