@@ -556,13 +556,19 @@ export default function Home() {
                   url="https://developer.kmitl.ac.th/"
                   colorVariant="light-yellow"
                 />
-                <ServiceCard
-                  title="API Gateway"
-                  icon={<URLIcon className="h-8 w-8" />}
-                  url="https://api.kmitl.ac.th/"
-                  colorVariant="light-yellow"
-                />
-              </div>
+<ServiceCard
+  title="API Gateway"
+  icon={<URLIcon className="h-8 w-8" />}
+  url="https://api.kmitl.ac.th/"
+  colorVariant="light-yellow"
+  />
+  <ServiceCard
+  title="ระบบ Version Control"
+  icon={<DevHubIcon className="h-8 w-8" />}
+  url="https://git.kmitl.ac.th/"
+  colorVariant="light-yellow"
+  />
+  </div>
             </div>
           </div>
 
@@ -624,25 +630,13 @@ export default function Home() {
                   url="https://expo.kmitl.ac.th"
                   colorVariant="light-green"
                 />
-                <ServiceCard
-                  title="Chatbot knowa"
-                  icon={<AIIcon className="h-8 w-8" />}
-                  url="https://expo.kmitl.ac.th/th/knowva"
-                  colorVariant="light-green"
-                />
 <ServiceCard
-                  title="API Gateway"
-                  icon={<URLIcon className="h-8 w-8" />}
-                  url="https://api.kmitl.ac.th/"
-                  colorVariant="light-yellow"
-                />
-                <ServiceCard
-                  title="ระบบ Version Control"
-                  icon={<DevHubIcon className="h-8 w-8" />}
-                  url="https://git.kmitl.ac.th/"
-                  colorVariant="light-yellow"
-                />
-              </div>
+  title="Chatbot knowa"
+  icon={<AIIcon className="h-8 w-8" />}
+  url="https://expo.kmitl.ac.th/th/knowva"
+  colorVariant="light-green"
+  />
+  </div>
             </div>
           </div>
         </div>
