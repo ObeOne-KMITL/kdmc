@@ -692,7 +692,7 @@ export default function Home() {
                 <CurrentServiceCard
                   title="Windows License"
                   icon={<OfficeIcon className="h-6 w-6" />}
-                  url="https://kdmc.kmitl.ac.th/services/windows/"
+                  url="https://kdmc.kmitl.ac.th/services/windows11/"
                 />
               </div>
             </div>
