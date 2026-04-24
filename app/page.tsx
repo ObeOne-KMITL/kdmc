@@ -479,6 +479,12 @@ export default function Home() {
                   url="http://metaverse.kmitl.ac.th/"
                   colorVariant="light-yellow"
                 />
+                <ServiceCard
+                  title="Generative AI Service Platform"
+                  icon={<AIIcon className="h-8 w-8" />}
+                  url="https://ai.kmitl.ac.th/"
+                  colorVariant="light-yellow"
+                />
               </div>
             </div>
 
@@ -586,11 +592,19 @@ export default function Home() {
       {/* Coming Soon Section */}
       <section className="bg-orange-50 py-16">
         <div className="container mx-auto px-4">
-          <h2 className="mb-12 text-center text-3xl font-bold text-orange-600 md:text-4xl">Coming Soon</h2>
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-            
-            
-<ComingSoonCard
+<h2 className="mb-12 text-center text-3xl font-bold text-orange-600 md:text-4xl">Coming Soon</h2>
+  <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+  
+  <ComingSoonCard
+    title="ระบบตรวจข้อสอบ"
+    description="ตรวจข้อสอบปรนัยโดยใช้มือถือ และ บันทึกลงระบบ"
+    icon={<EvaluationIcon className="h-12 w-12" />}
+    showProgress={true}
+    progressPercentage={50}
+    expectedCompletion="Q3 2026"
+  />
+  
+  <ComingSoonCard
   title="ERP"
   description="ทลายกำแพง แผน พัสดุ คลัง สู่เป้าหมายเดียวกันตาม Core Valus : Team Spirit"
   icon={<ERPIcon className="h-12 w-12" />}
