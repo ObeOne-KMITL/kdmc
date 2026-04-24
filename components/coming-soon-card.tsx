@@ -25,15 +25,15 @@ export default function ComingSoonCard({
   greenProgress = false,
 }: ComingSoonCardProps) {
   const CardComponent = (
-    <Card className="h-full border-orange-200 bg-white transition-all hover:border-orange-500 hover:shadow-md card-hover-effect">
+    <Card className="h-full border-blue-200 bg-white transition-all hover:border-cyan-500 hover:shadow-md card-hover-effect">
       <CardHeader className="pb-2">
         <div className="flex flex-col items-center">
-          <div className="mb-4 h-24 w-24 overflow-hidden rounded-lg bg-orange-100 flex items-center justify-center text-orange-500">
+          <div className="mb-4 h-24 w-24 overflow-hidden rounded-lg bg-blue-100 flex items-center justify-center text-cyan-500">
             {icon}
           </div>
           <div className="flex items-center gap-2">
-            <Clock className="h-5 w-5 text-orange-500" />
-            <CardTitle className="text-xl text-orange-600">{title}</CardTitle>
+            <Clock className="h-5 w-5 text-cyan-500" />
+            <CardTitle className="text-xl text-blue-600">{title}</CardTitle>
           </div>
         </div>
       </CardHeader>
@@ -43,12 +43,12 @@ export default function ComingSoonCard({
         {showProgress && (
           <div className="mt-4">
             <div className="flex justify-between items-center mb-1">
-              <span className="text-sm font-medium text-orange-600">ความคืบหน้า</span>
-              <span className="text-sm font-medium text-orange-600">{progressPercentage}%</span>
+              <span className="text-sm font-medium text-blue-600">ความคืบหน้า</span>
+              <span className="text-sm font-medium text-blue-600">{progressPercentage}%</span>
             </div>
             <div className="w-full bg-gray-200 rounded-full h-2.5">
               <div
-                className={`${greenProgress ? "bg-green-500" : "bg-orange-500"} h-2.5 rounded-full`}
+                className={`${greenProgress ? "bg-green-500" : "bg-cyan-500"} h-2.5 rounded-full`}
                 style={{ width: `${progressPercentage}%` }}
               ></div>
             </div>

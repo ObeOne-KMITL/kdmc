@@ -23,19 +23,19 @@ export default function ServiceCard({ title, icon, url, colorVariant = "default"
       case "light-maroon":
         return "bg-red-100 text-red-600 group-hover:bg-red-200 group-hover:text-red-700"
       default:
-        return "bg-orange-100 text-orange-500 group-hover:bg-orange-200 group-hover:text-orange-600"
+        return "bg-blue-100 text-blue-500 group-hover:bg-blue-200 group-hover:text-blue-600"
     }
   }
 
   const CardComponent = (
-    <Card className="h-full transition-all hover:border-orange-500 hover:shadow-md card-hover-effect group">
+    <Card className="h-full transition-all hover:border-cyan-500 hover:shadow-md card-hover-effect group">
       <CardContent className="flex h-full flex-col items-center justify-center p-6 text-center">
         <div
           className={`mb-4 h-16 w-16 overflow-hidden rounded-full flex items-center justify-center transition-colors ${getColorClasses()}`}
         >
           {icon}
         </div>
-        <h4 className="text-md font-medium group-hover:text-orange-600 transition-colors">{title}</h4>
+        <h4 className="text-md font-medium group-hover:text-cyan-600 transition-colors">{title}</h4>
       </CardContent>
     </Card>
   )

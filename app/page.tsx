@@ -60,7 +60,7 @@ export default function Home() {
       <section className="bg-white py-16">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-3xl text-center">
-            <h2 className="mb-6 text-3xl font-bold text-orange-600 md:text-4xl">What is Digital University?</h2>
+            <h2 className="mb-6 text-3xl font-bold text-blue-600 md:text-4xl">What is Digital University?</h2>
             <p className="text-lg text-gray-600">
               Digital University คือ การนำ Digital Technology มาใช้ในการปรับปรุงกระบวนการ (Process) ของการทำงาน
               เพื่อเพิ่มประสิทธิภาพและยกระดับการให้บริการทางการศึกษา
@@ -72,9 +72,9 @@ export default function Home() {
       {/* Strategic Pillars Section */}
 
       {/* Process Improvement Section */}
-      <section className="bg-orange-50 py-16">
+      <section className="bg-blue-50 py-16">
         <div className="container mx-auto px-4">
-          <h2 className="mb-12 text-center text-3xl font-bold text-orange-600 md:text-4xl">Process Improvement</h2>
+          <h2 className="mb-12 text-center text-3xl font-bold text-blue-600 md:text-4xl">Process Improvement</h2>
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
             <ProcessCard
               title="Digitization"
@@ -101,7 +101,7 @@ export default function Home() {
       {/* Frequently Used Services Section */}
       <section className="bg-white py-16">
         <div className="container mx-auto px-4">
-          <h2 className="mb-12 text-center text-3xl font-bold text-orange-600 md:text-4xl">
+          <h2 className="mb-12 text-center text-3xl font-bold text-blue-600 md:text-4xl">
             Frequently Used Services
           </h2>
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4 mb-8">
@@ -146,9 +146,9 @@ export default function Home() {
       </section>
 
       {/* All Digital Services Section */}
-      <section className="bg-orange-50 py-16">
+      <section className="bg-blue-50 py-16">
         <div className="container mx-auto px-4">
-          <h2 className="mb-12 text-center text-3xl font-bold text-orange-600 md:text-4xl" id="section2">
+          <h2 className="mb-12 text-center text-3xl font-bold text-blue-600 md:text-4xl" id="section2">
             All Digital Services
           </h2>
 
@@ -162,7 +162,7 @@ export default function Home() {
             </div>
 
             <div className="mb-10">
-              <h4 className="mb-4 text-xl font-medium text-orange-500">งานบริหารวิชาการ</h4>
+              <h4 className="mb-4 text-xl font-medium text-cyan-600">งานบริหารวิชาการ</h4>
               <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
                 <ServiceCard
                   title="ระบบ Course Spec/Syllabus/Report"
@@ -222,7 +222,7 @@ export default function Home() {
             </div>
 
             <div className="mb-10">
-              <h4 className="mb-4 text-xl font-medium text-orange-500">งาน Life Long Learning</h4>
+              <h4 className="mb-4 text-xl font-medium text-cyan-600">งาน Life Long Learning</h4>
               <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
                 <ServiceCard
                   title="ระบบ Klix Masterclass"
@@ -240,7 +240,7 @@ export default function Home() {
             </div>
 
             <div className="mb-10">
-              <h4 className="mb-4 text-xl font-medium text-orange-500">งานกิจการนักศึกษา</h4>
+              <h4 className="mb-4 text-xl font-medium text-cyan-600">งานกิจการนักศึกษา</h4>
               <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
                 <ServiceCard
                   title="ระบบจัดการกิจกรรม"
@@ -258,7 +258,7 @@ export default function Home() {
             </div>
 
             <div className="mb-10">
-              <h4 className="mb-4 text-xl font-medium text-orange-500">ส่วนงานวิชาการ</h4>
+              <h4 className="mb-4 text-xl font-medium text-cyan-600">ส่วนงานวิชาการ</h4>
               <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
                 <ServiceCard
                   title="คณะศิลปศาสตร์ : ระบบ KMITL TEP"
@@ -270,7 +270,7 @@ export default function Home() {
             </div>
 
             <div className="mb-10">
-              <h4 className="mb-4 text-xl font-medium text-orange-500">สำนักศึกษาทั่วไป</h4>
+              <h4 className="mb-4 text-xl font-medium text-cyan-600">สำนักศึกษาทั่วไป</h4>
               <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
                 <ServiceCard
                   title="GenEd Skill Transcript"
@@ -292,7 +292,7 @@ export default function Home() {
             </div>
 
             <div className="mb-10">
-              <h4 className="mb-4 text-xl font-medium text-orange-500">พื้นที่แชร์ความรู้</h4>
+              <h4 className="mb-4 text-xl font-medium text-cyan-600">พื้นที่แชร์ความรู้</h4>
               <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
                 <ServiceCard
                   title="ระบบ Blog"
@@ -314,7 +314,7 @@ export default function Home() {
             </div>
 
             <div className="mb-10">
-              <h4 className="mb-4 text-xl font-medium text-orange-500">งานบริหารทรัพยากรบุคคล</h4>
+              <h4 className="mb-4 text-xl font-medium text-cyan-600">งานบริหารทรัพยากรบุคคล</h4>
               <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
                 <ServiceCard
                   title="ระบบ Profile บุคลากร"
@@ -362,7 +362,7 @@ export default function Home() {
   </div>
   
   <div className="mb-10">
-  <h4 className="mb-4 text-xl font-medium text-orange-500">งานการเงิน การคลัง</h4>
+  <h4 className="mb-4 text-xl font-medium text-cyan-600">งานการเงิน การคลัง</h4>
               <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
                 <ServiceCard
                   title="ระบบเบิกสวัสดิการ ค่ารักษาพยาบาล/ทันตกรรม/ค่าเล่าเรียนบุตร"
@@ -386,7 +386,7 @@ export default function Home() {
             </div>
 
             <div className="mb-10">
-              <h4 className="mb-4 text-xl font-medium text-orange-500">งานแผนงาน</h4>
+              <h4 className="mb-4 text-xl font-medium text-cyan-600">งานแผนงาน</h4>
               <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
                 <ServiceCard
                   title="ระบบรายงานผลการดำเนินงานประจำปี"
@@ -404,7 +404,7 @@ export default function Home() {
             </div>
 
             <div className="mb-10">
-              <h4 className="mb-4 text-xl font-medium text-orange-500">งานบริหารทั่วไป</h4>
+              <h4 className="mb-4 text-xl font-medium text-cyan-600">งานบริหารทั่วไป</h4>
               <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
                 <ServiceCard
                   title="ระบบจองห้องต่างๆ ในสถาบัน"
@@ -440,7 +440,7 @@ export default function Home() {
             </div>
 
             <div className="mb-10">
-              <h4 className="mb-4 text-xl font-medium text-orange-500">งานประชาสัมพันธ์</h4>
+              <h4 className="mb-4 text-xl font-medium text-cyan-600">งานประชาสัมพันธ์</h4>
               <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
                 <ServiceCard
                   title="ระบบจัดเก็บรูปภาพ"
@@ -458,7 +458,7 @@ export default function Home() {
             </div>
 
             <div className="mb-10">
-              <h4 className="mb-4 text-xl font-medium text-orange-500">สภาสถาบัน</h4>
+              <h4 className="mb-4 text-xl font-medium text-cyan-600">สภาสถาบัน</h4>
               <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
                 <ServiceCard
                   title="ระบบติดตามการทำงานตามมติสภาสถาบัน"
@@ -470,7 +470,7 @@ export default function Home() {
             </div>
 
             <div className="mb-10">
-              <h4 className="mb-4 text-xl font-medium text-orange-500">KDMC</h4>
+              <h4 className="mb-4 text-xl font-medium text-cyan-600">KDMC</h4>
               <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
                 <ServiceCard
                   title="ระบบ E-Certificate"
@@ -542,7 +542,7 @@ export default function Home() {
             </div>
 
             <div className="mb-10">
-              <h4 className="mb-4 text-xl font-medium text-orange-500">Developer Platform</h4>
+              <h4 className="mb-4 text-xl font-medium text-cyan-600">Developer Platform</h4>
               <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
                 <ServiceCard
                   title="ระบบ Single Sign On"
@@ -582,7 +582,7 @@ export default function Home() {
             </div>
 
             <div className="mb-10">
-              <h4 className="mb-4 text-xl font-medium text-orange-500">งานกายภาพ</h4>
+              <h4 className="mb-4 text-xl font-medium text-cyan-600">งานกายภาพ</h4>
               <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
                 <ServiceCard
                   title="ระบบแจ้งซ่อม"
@@ -622,7 +622,7 @@ export default function Home() {
             </div>
 
             <div className="mb-10">
-              <h4 className="mb-4 text-xl font-medium text-orange-500">งานวิจัยและนวัตกรรม</h4>
+              <h4 className="mb-4 text-xl font-medium text-cyan-600">งานวิจัยและนวัตกรรม</h4>
               <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
                 <ServiceCard
                   title="ระบบงาน KMITL Expo"
@@ -649,9 +649,9 @@ export default function Home() {
       </section>
 
       {/* Coming Soon Section */}
-      <section className="bg-orange-50 py-16">
+      <section className="bg-blue-50 py-16">
         <div className="container mx-auto px-4">
-<h2 className="mb-12 text-center text-3xl font-bold text-orange-600 md:text-4xl">Coming Soon</h2>
+<h2 className="mb-12 text-center text-3xl font-bold text-blue-600 md:text-4xl">Coming Soon</h2>
   <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
   
 <ComingSoonCard
@@ -715,11 +715,11 @@ export default function Home() {
       {/* Current Services Section */}
       <section className="bg-white py-16">
         <div className="container mx-auto px-4">
-          <h2 className="mb-12 text-center text-3xl font-bold text-orange-600 md:text-4xl">Current Services</h2>
+          <h2 className="mb-12 text-center text-3xl font-bold text-blue-600 md:text-4xl">Current Services</h2>
 
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
             <div>
-              <h3 className="mb-6 text-2xl font-semibold text-orange-600">License Software</h3>
+              <h3 className="mb-6 text-2xl font-semibold text-blue-600">License Software</h3>
               <div className="space-y-4">
                 <CurrentServiceCard
                   title="Microsoft Office 365"
@@ -760,7 +760,7 @@ export default function Home() {
             </div>
 
             <div>
-              <h3 className="mb-6 text-2xl font-semibold text-orange-600">Network Infrastructure Services</h3>
+              <h3 className="mb-6 text-2xl font-semibold text-blue-600">Network Infrastructure Services</h3>
               <div className="space-y-4">
                 <CurrentServiceCard
                   title="Wireless Network"
@@ -802,7 +802,7 @@ export default function Home() {
           </div>
 
           <div className="mt-8">
-            <h3 className="mb-6 text-2xl font-semibold text-orange-600">Information System</h3>
+            <h3 className="mb-6 text-2xl font-semibold text-blue-600">Information System</h3>
             <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4">
               <CurrentServiceCard
                 title="E-office"
@@ -821,7 +821,7 @@ export default function Home() {
           <h2 className="mb-8 text-3xl font-bold md:text-4xl">สนใจบริการ ติดต่อ</h2>
           <p className="mb-4 text-xl">Line: @kdmc หรือโทร 091-190-6000</p>
           <div className="flex justify-center gap-4">
-            <Button className="bg-white text-orange-600 hover:bg-orange-100">
+            <Button className="bg-white text-blue-600 hover:bg-orange-100">
               <a href="https://forms.gle/XFDed7SSaSNBVQbg7" target="_blank" rel="noopener noreferrer">
                 ข้อคิดเห็น ข้อเสนอแนะ
               </a>

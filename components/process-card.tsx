@@ -11,10 +11,10 @@ interface ProcessCardProps {
 
 export default function ProcessCard({ title, description, icon, url }: ProcessCardProps) {
   const CardComponent = (
-    <Card className="h-full transition-all hover:border-orange-500 hover:shadow-md card-hover-effect">
+    <Card className="h-full transition-all hover:border-cyan-500 hover:shadow-md card-hover-effect">
       <CardHeader className="flex items-center justify-center pb-2">
-        <div className="mb-4 rounded-full bg-orange-100 p-4 text-orange-500">{icon}</div>
-        <CardTitle className="text-xl text-orange-600">{title}</CardTitle>
+        <div className="mb-4 rounded-full bg-blue-100 p-4 text-cyan-500">{icon}</div>
+        <CardTitle className="text-xl text-blue-600">{title}</CardTitle>
       </CardHeader>
       <CardContent className="text-center">
         <p className="text-gray-600">{description}</p>
