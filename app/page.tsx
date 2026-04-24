@@ -626,14 +626,7 @@ export default function Home() {
             
             
             
-            <ComingSoonCard
-              title="ระบบ Profile ของหลักสูตร"
-              description="สำหรับเป็นข้อมูลพื้นฐานให้กับหลักสูตร"
-              icon={<CurriculumIcon className="h-12 w-12" />}
-              showProgress={true}
-              progressPercentage={10}
-              expectedCompletion="Q3 2025"
-            />
+
             <ComingSoonCard
               title="ระบบตัดเกรด โดยใช้ CLO"
               description="เปลี่ยนวิธีการตัดเกรดโดยอิงตาม CLO"
