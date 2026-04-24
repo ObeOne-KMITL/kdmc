@@ -2,7 +2,6 @@ import type React from "react"
 import type { Metadata } from "next"
 import { Bai_Jamjuree } from "next/font/google"
 import "./globals.css"
-import { ThemeProvider } from "@/components/theme-provider"
 
 const baiJamjuree = Bai_Jamjuree({
   subsets: ["latin", "thai"],
@@ -36,11 +35,9 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="th" suppressHydrationWarning>
+    <html lang="th" className="bg-background">
       <body className={`${baiJamjuree.variable} font-sans`}>
-        <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
-          {children}
-        </ThemeProvider>
+        {children}
       </body>
     </html>
   )
