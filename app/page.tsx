@@ -221,6 +221,18 @@ export default function Home() {
                 />
               </div>
             </div>
+
+            <div className="mb-10">
+              <h4 className="mb-4 text-xl font-medium text-orange-500">สำนักศึกษาทั่วไป</h4>
+              <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
+                <ServiceCard
+                  title="GenEd Skill Transcript"
+                  icon={<SkillsIcon className="h-8 w-8" />}
+                  url="https://skill-transcript.gened.kmitl.ac.th/"
+                  colorVariant="light-maroon"
+                />
+              </div>
+            </div>
           </div>
 
           {/* Global Learning Section */}
@@ -281,17 +293,29 @@ export default function Home() {
                   url="https://kaizen.kmitl.ac.th/"
                   colorVariant="light-yellow"
                 />
-                <ServiceCard
-                  title="ระบบความเชี่ยวชาญอาจารย์"
-                  icon={<ProfileIcon className="h-8 w-8" />}
-                  url="https://talent.kmitl.ac.th/"
-                  colorVariant="light-yellow"
-                />
-              </div>
-            </div>
-
-            <div className="mb-10">
-              <h4 className="mb-4 text-xl font-medium text-orange-500">งานการเงิน การคลัง</h4>
+<ServiceCard
+  title="ระบบความเชี่ยวชาญอาจารย์"
+  icon={<ProfileIcon className="h-8 w-8" />}
+  url="https://talent.kmitl.ac.th/"
+  colorVariant="light-yellow"
+  />
+  <ServiceCard
+    title="Ignite"
+    icon={<AIIcon className="h-8 w-8" />}
+    url="https://ignite.kmitl.ac.th/"
+    colorVariant="light-yellow"
+  />
+  <ServiceCard
+    title="ระบบรับสมัครงาน"
+    icon={<ProfileIcon className="h-8 w-8" />}
+    url="https://job.kmitl.ac.th"
+    colorVariant="light-yellow"
+  />
+  </div>
+  </div>
+  
+  <div className="mb-10">
+  <h4 className="mb-4 text-xl font-medium text-orange-500">งานการเงิน การคลัง</h4>
               <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
                 <ServiceCard
                   title="ระบบเบิกสวัสดิการ ค่ารักษาพยาบาล/ทันตกรรม/ค่าเล่าเรียนบุตร"
@@ -450,6 +474,30 @@ export default function Home() {
                   colorVariant="light-yellow"
                 />
                 <ServiceCard
+                  title="Metaverse"
+                  icon={<MetaverseIcon className="h-8 w-8" />}
+                  url="http://metaverse.kmitl.ac.th/"
+                  colorVariant="light-yellow"
+                />
+                <ServiceCard
+                  title="Generative AI Service Platform"
+                  icon={<AIIcon className="h-8 w-8" />}
+                  url="https://ai.kmitl.ac.th/"
+                  colorVariant="light-yellow"
+                />
+                <ServiceCard
+                  title="กล้องวงจรปิดโรงอาหาร"
+                  icon={<CCTVIcon className="h-8 w-8" />}
+                  url="https://kdmc.kmitl.ac.th/live-camera/"
+                  colorVariant="light-yellow"
+                />
+              </div>
+            </div>
+
+            <div className="mb-10">
+              <h4 className="mb-4 text-xl font-medium text-orange-500">Developer Platform</h4>
+              <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
+                <ServiceCard
                   title="SSO"
                   icon={<SSOIcon className="h-8 w-8" />}
                   url="https://sso.kmitl.ac.th/realms/kmitl/account"
@@ -459,6 +507,12 @@ export default function Home() {
                   title="Developer HUB"
                   icon={<DevHubIcon className="h-8 w-8" />}
                   url="https://developer.kmitl.ac.th/"
+                  colorVariant="light-yellow"
+                />
+                <ServiceCard
+                  title="API Gateway"
+                  icon={<URLIcon className="h-8 w-8" />}
+                  url="https://api.kmitl.ac.th/"
                   colorVariant="light-yellow"
                 />
               </div>
@@ -529,6 +583,12 @@ export default function Home() {
                   url="https://expo.kmitl.ac.th/th/knowva"
                   colorVariant="light-green"
                 />
+                <ServiceCard
+                  title="Dspace"
+                  icon={<DatabaseIcon className="h-8 w-8" />}
+                  url="https://dspace.kmitl.ac.th"
+                  colorVariant="light-green"
+                />
               </div>
             </div>
           </div>
@@ -538,27 +598,19 @@ export default function Home() {
       {/* Coming Soon Section */}
       <section className="bg-orange-50 py-16">
         <div className="container mx-auto px-4">
-          <h2 className="mb-12 text-center text-3xl font-bold text-orange-600 md:text-4xl">Coming Soon</h2>
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-            <ComingSoonCard
-              title="Skill Transcript"
-              description="รองรับการออก Skill Transcript ให้กับ นศ ทุกคน"
-              icon={<SkillsIcon className="h-12 w-12" />}
-              showProgress={true}
-              progressPercentage={75}
-              expectedCompletion="Q3 2025"
-              greenProgress={true}
-            />
-            <ComingSoonCard
-              title="Iginite"
-              description="Platform AI Chatbot สำหรับทุกหน่วยงาน สร้าง Chatbot ช่วยตอบคำถามของแต่ละหน่วย"
-              icon={<AIIcon className="h-12 w-12" />}
-              showProgress={true}
-              progressPercentage={75}
-              expectedCompletion="Q3 2025"
-              greenProgress={true}
-            />
-<ComingSoonCard
+<h2 className="mb-12 text-center text-3xl font-bold text-orange-600 md:text-4xl">Coming Soon</h2>
+  <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+  
+  <ComingSoonCard
+    title="ระบบตรวจข้อสอบ"
+    description="ตรวจข้อสอบปรนัยโดยใช้มือถือ และ บันทึกลงระบบ"
+    icon={<EvaluationIcon className="h-12 w-12" />}
+    showProgress={true}
+    progressPercentage={50}
+    expectedCompletion="Q3 2026"
+  />
+  
+  <ComingSoonCard
   title="ERP"
   description="ทลายกำแพง แผน พัสดุ คลัง สู่เป้าหมายเดียวกันตาม Core Valus : Team Spirit"
   icon={<ERPIcon className="h-12 w-12" />}
@@ -567,59 +619,30 @@ export default function Home() {
   expectedCompletion="Q3 2026"
   greenProgress={true}
   />
-            <ComingSoonCard
-              title="Metaverse"
-              description="สร้าง Metaverse สำหรับการเรียนรู้แบบเสมือนจริง"
-              icon={<MetaverseIcon className="h-12 w-12" />}
-              showProgress={true}
-              progressPercentage={80}
-              expectedCompletion="Q3 2025"
-              greenProgress={true}
-            />
             
             
             
             
-            <ComingSoonCard
-              title="API Gateway"
-              description="สำหรับให้บริการ API กับระบบต่าง ๆ"
-              icon={<URLIcon className="h-12 w-12" />}
-              showProgress={true}
-              progressPercentage={90}
-              expectedCompletion="Q3 2025"
-              greenProgress={true}
-            />
-            <ComingSoonCard
-              title="Dspace"
-              description="รวบรวมงานวิจัย และ ผลงานอาจารย์"
-              icon={<DatabaseIcon className="h-12 w-12" />}
-              showProgress={true}
-              progressPercentage={20}
-              expectedCompletion="Q3 2025"
-            />
-            <ComingSoonCard
-              title="ระบบ Profile ของหลักสูตร"
-              description="สำหรับเป็นข้อมูลพื้นฐานให้กับหลักสูตร"
-              icon={<CurriculumIcon className="h-12 w-12" />}
-              showProgress={true}
-              progressPercentage={10}
-              expectedCompletion="Q3 2025"
-            />
+            
+            
+            
+
             <ComingSoonCard
               title="ระบบตัดเกรด โดยใช้ CLO"
               description="เปลี่ยนวิธีการตัดเกรดโดยอิงตาม CLO"
               icon={<EvaluationIcon className="h-12 w-12" />}
               showProgress={true}
-              progressPercentage={10}
-              expectedCompletion="Q3 2025"
+              progressPercentage={75}
+              expectedCompletion="Q3 2026"
+              greenProgress={true}
             />
             <ComingSoonCard
               title="Private Cloud Storage"
               description="พื้นที่จัดเก็บไฟล์สำหรับบุคลากร"
               icon={<DatabaseIcon className="h-12 w-12" />}
               showProgress={true}
-              progressPercentage={70}
-              expectedCompletion="Q3 2025"
+              progressPercentage={90}
+              expectedCompletion="Q3 2026"
               greenProgress={true}
             />
             
