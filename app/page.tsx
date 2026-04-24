@@ -689,6 +689,11 @@ export default function Home() {
                   icon={<MatlabIcon className="h-6 w-6" />}
                   url="https://kdmc.kmitl.ac.th/services/matlab/"
                 />
+                <CurrentServiceCard
+                  title="Windows License"
+                  icon={<OfficeIcon className="h-6 w-6" />}
+                  url="https://kdmc.kmitl.ac.th/services/windows/"
+                />
               </div>
             </div>
 
