@@ -485,6 +485,12 @@ export default function Home() {
                   url="https://ai.kmitl.ac.th/"
                   colorVariant="light-yellow"
                 />
+                <ServiceCard
+                  title="กล้องวงจรปิดโรงอาหาร"
+                  icon={<CCTVIcon className="h-8 w-8" />}
+                  url="https://kdmc.kmitl.ac.th/live-camera/"
+                  colorVariant="light-yellow"
+                />
               </div>
             </div>
 
