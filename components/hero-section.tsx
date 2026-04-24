@@ -1,33 +1,23 @@
-import { ArrowRight } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 export default function HeroSection() {
   return (
-    <section className="relative h-[600px] w-full overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-r from-orange-600 via-orange-500 to-orange-400 opacity-90"></div>
-
-      {/* Animated background elements */}
-      <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-20 -left-20 h-64 w-64 rounded-full bg-orange-500 opacity-20 animate-float"></div>
-        <div
-          className="absolute top-40 right-20 h-96 w-96 rounded-full bg-orange-400 opacity-20 animate-float"
-          style={{ animationDelay: "1s" }}
-        ></div>
-        <div
-          className="absolute bottom-10 left-1/3 h-72 w-72 rounded-full bg-orange-300 opacity-20 animate-float"
-          style={{ animationDelay: "2s" }}
-        ></div>
-      </div>
-
-      <div className="container relative z-10 mx-auto flex h-full flex-col items-center justify-center px-4 text-center text-white">
-        <h1 className="mb-4 text-5xl font-bold md:text-6xl">KMITL: Digital University</h1>
-        <p className="mb-8 max-w-2xl text-xl">Transforming education through digital innovation and technology</p>
-        <div className="flex gap-4">
-          <a href="#section2"><Button className="bg-white text-orange-600 hover:bg-orange-100">
-            Explore Services <ArrowRight className="ml-2 h-4 w-4" />
-          </Button></a>
-
-        </div>
+    <section className="relative w-full overflow-hidden">
+      <div className="relative w-full">
+        <Image
+          src="/images/hero-background.png"
+          alt="KDMC Digital Services Platform - Smart Services Better Together"
+          width={1920}
+          height={800}
+          className="w-full h-auto object-cover"
+          priority
+        />
+        {/* Clickable overlay for Explore Services area */}
+        <a 
+          href="#section2" 
+          className="absolute bottom-[15%] left-[3%] w-[200px] h-[50px] cursor-pointer hover:opacity-80 transition-opacity md:bottom-[18%] md:left-[4%] md:w-[220px] md:h-[55px]"
+          aria-label="Explore Services"
+        />
       </div>
     </section>
   )
