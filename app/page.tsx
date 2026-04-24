@@ -449,6 +449,12 @@ export default function Home() {
                   url="https://codesk.kmitl.ac.th/"
                   colorVariant="light-yellow"
                 />
+              </div>
+            </div>
+
+            <div className="mb-10">
+              <h4 className="mb-4 text-xl font-medium text-orange-500">Developer Platform</h4>
+              <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
                 <ServiceCard
                   title="SSO"
                   icon={<SSOIcon className="h-8 w-8" />}
@@ -459,6 +465,12 @@ export default function Home() {
                   title="Developer HUB"
                   icon={<DevHubIcon className="h-8 w-8" />}
                   url="https://developer.kmitl.ac.th/"
+                  colorVariant="light-yellow"
+                />
+                <ServiceCard
+                  title="API Gateway"
+                  icon={<URLIcon className="h-8 w-8" />}
+                  url="https://api.kmitl.ac.th/"
                   colorVariant="light-yellow"
                 />
               </div>
@@ -580,15 +592,7 @@ export default function Home() {
             
             
             
-            <ComingSoonCard
-              title="API Gateway"
-              description="สำหรับให้บริการ API กับระบบต่าง ๆ"
-              icon={<URLIcon className="h-12 w-12" />}
-              showProgress={true}
-              progressPercentage={90}
-              expectedCompletion="Q3 2025"
-              greenProgress={true}
-            />
+            
             <ComingSoonCard
               title="Dspace"
               description="รวบรวมงานวิจัย และ ผลงานอาจารย์"
