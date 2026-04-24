@@ -293,6 +293,12 @@ export default function Home() {
     url="https://ignite.kmitl.ac.th/"
     colorVariant="light-yellow"
   />
+  <ServiceCard
+    title="ระบบรับสมัครงาน"
+    icon={<ProfileIcon className="h-8 w-8" />}
+    url="https://job.kmitl.ac.th"
+    colorVariant="light-yellow"
+  />
   </div>
   </div>
   
@@ -455,6 +461,12 @@ export default function Home() {
                   url="https://codesk.kmitl.ac.th/"
                   colorVariant="light-yellow"
                 />
+                <ServiceCard
+                  title="Metaverse"
+                  icon={<MetaverseIcon className="h-8 w-8" />}
+                  url="http://metaverse.kmitl.ac.th/"
+                  colorVariant="light-yellow"
+                />
               </div>
             </div>
 
@@ -583,15 +595,7 @@ export default function Home() {
   expectedCompletion="Q3 2026"
   greenProgress={true}
   />
-            <ComingSoonCard
-              title="Metaverse"
-              description="สร้าง Metaverse สำหรับการเรียนรู้แบบเสมือนจริง"
-              icon={<MetaverseIcon className="h-12 w-12" />}
-              showProgress={true}
-              progressPercentage={80}
-              expectedCompletion="Q3 2025"
-              greenProgress={true}
-            />
+            
             
             
             
