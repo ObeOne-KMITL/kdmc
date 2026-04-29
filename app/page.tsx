@@ -1,7 +1,6 @@
-import { ArrowRight, CheckCircle, Zap } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import ServiceCard from "@/components/service-card"
-import ProcessCard from "@/components/process-card"
+import ImageProcessCard from "@/components/image-process-card"
 import ComingSoonCard from "@/components/coming-soon-card"
 import CurrentServiceCard from "@/components/current-service-card"
 import Image from "next/image"
@@ -76,23 +75,17 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <h2 className="mb-12 text-center text-3xl font-bold text-blue-600 md:text-4xl">Process Improvement</h2>
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-            <ProcessCard
+            <ImageProcessCard
               title="Digitization"
-              description="การแปลงข้อมูลและกระบวนการให้อยู่ในรูปแบบดิจิทัล"
-              icon={<Zap className="h-10 w-10" />}
-              url="#digitization"
+              imageSrc="/images/digitization.png"
             />
-            <ProcessCard
+            <ImageProcessCard
               title="Automation"
-              description="การนำเทคโนโลยีมาช่วยทำงานแทนมนุษย์ เพื่อลดข้อผิดพลาดและเพิ่มประสิทธิภาพ"
-              icon={<CheckCircle className="h-10 w-10" />}
-              url="#automation"
+              imageSrc="/images/automation.png"
             />
-            <ProcessCard
+            <ImageProcessCard
               title="Integration"
-              description="การเชื่อมโยงระบบต่างๆ เข้าด้วยกันเพื่อให้ข้อมูลไหลเวียนได้อย่างราบรื่น"
-              icon={<ArrowRight className="h-10 w-10" />}
-              url="#integration"
+              imageSrc="/images/integration.png"
             />
           </div>
         </div>
@@ -109,37 +102,37 @@ export default function Home() {
               title="ระบบ LMS"
               icon={<LMSIcon className="h-8 w-8" />}
               url="https://goedu.kmitl.ac.th/"
-              colorVariant="light-blue"
+              colorVariant="light-maroon"
             />
             <ServiceCard
               title="ระบบ Course Spec/Syllabus/Report"
               icon={<CourseIcon className="h-8 w-8" />}
               url="https://syllabus.kmitl.ac.th/"
-              colorVariant="light-blue"
+              colorVariant="light-maroon"
             />
             <ServiceCard
               title="Generative AI Service Platform"
               icon={<AIIcon className="h-8 w-8" />}
               url="https://ai.kmitl.ac.th/"
-              colorVariant="light-blue"
+              colorVariant="light-yellow"
             />
             <ServiceCard
               title="ระบบ Profile บุคลากร"
               icon={<ProfileIcon className="h-8 w-8" />}
               url="https://profile.kmitl.ac.th/"
-              colorVariant="light-blue"
+              colorVariant="light-yellow"
             />
             <ServiceCard
               title="ระบบจองห้องต่างๆ ในสถาบัน"
               icon={<CoLocIcon className="h-8 w-8" />}
               url="https://booking.kmitl.ac.th/"
-              colorVariant="light-blue"
+              colorVariant="light-yellow"
             />
             <ServiceCard
               title="ระบบจองรถ"
               icon={<EVIcon className="h-8 w-8" />}
               url="https://vehicle.kmitl.ac.th/"
-              colorVariant="light-blue"
+              colorVariant="light-pink"
             />
           </div>
         </div>
