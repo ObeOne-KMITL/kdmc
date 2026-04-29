@@ -10,7 +10,7 @@ interface ImageProcessCardProps {
 export default function ImageProcessCard({ title, imageSrc, url }: ImageProcessCardProps) {
   const CardComponent = (
     <Card className="h-full overflow-hidden transition-all hover:border-cyan-500 hover:shadow-lg card-hover-effect group">
-      <div className="relative w-full aspect-[16/9]">
+      <div className="relative w-full aspect-[4/3]">
         <Image 
           src={imageSrc || "/placeholder.svg"} 
           alt={title} 
